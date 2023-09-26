@@ -1,0 +1,18 @@
+<suite name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="TestNG2.Class_Five"/>
+      <class name="TestNG1.Class_One"/>
+      <class name="TestNG1.Class_Two"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+    <classes>
+      <class name="TestNG2.Class_Four"/>
+      <class name="TestNG1.Class_Three"/>
+      <class name="TestNG2.Class_Six"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

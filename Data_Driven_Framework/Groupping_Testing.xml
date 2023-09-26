@@ -1,0 +1,14 @@
+<suite name="Suite">
+  <test name="Test">
+  	<groups>
+   		<run>
+   			<include name="Registration"/>
+   			<include name="Change Password"/>
+   		</run>
+     </groups>
+  	
+    <classes>
+      <class name="Groupping_Test_Classes.Grouping1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

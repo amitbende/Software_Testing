@@ -1,0 +1,22 @@
+<suite name="Suite">
+  <test name="Test_Chrome">
+  <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="MultiBrowser_Compatibity_Testing.Multi_Browser2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test_firefox">
+  <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="MultiBrowser_Compatibity_Testing.Multi_Browser2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test_Edge">
+  <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="MultiBrowser_Compatibity_Testing.Multi_Browser2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+<suite name="Failed Suite [Suit]">
+  <test name="Test(Failed)">
+    <classes>
+      <class name="Failed_Xml_Suit.Test3">
+      	<methods>
+      		<include name="Test_Case6"/>
+      	</methods>
+      </class>
+
+      <class name="Failed_Xml_Suit.Test2">
+      	<methods>
+      		<include name="Test_Case3"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,42 @@
+<!--  <suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Disable_Test_Cases.Disable2">
+      	<methods>
+          <exclude name="Test_Case1"/> 
+          <exclude name="Test_Case3"/> 
+        </methods>
+      </class>
+      
+     <class name="Disable_Test_Cases.Disable1">
+     	<methods>
+          <exclude name="Test_Case1"/> 
+          <exclude name="Test_Case3"/> 
+        </methods>
+     </class>
+    </classes>
+  </test> 
+</suite>
+-->
+
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Disable_Test_Cases.Disable2">
+      	<methods>
+          <include name="Test_Case1"/> 
+          <include name="Test_Case3"/> 
+        </methods>
+      </class>
+      
+     <class name="Disable_Test_Cases.Disable1">
+     	<methods>
+          <include name="Test_Case1"/> 
+          <exclude name="Test_Case3"/> 
+          <include name="Test_Case5"/> 
+        </methods>
+     </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

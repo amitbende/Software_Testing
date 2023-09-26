@@ -1,0 +1,22 @@
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test_Chrome">
+  <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="MultiBrowser_Compatibity_Testing.MultiBrowser_Parallel"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test_firefox">
+  <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="MultiBrowser_Compatibity_Testing.MultiBrowser_Parallel"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test_Edge">
+  <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="MultiBrowser_Compatibity_Testing.MultiBrowser_Parallel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
